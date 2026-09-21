@@ -39,7 +39,7 @@ export default function AnimesCriarScreen() {
     }
     setEnviando(true);
     try {
-      const payload = {
+      const req = {
         title: title.trim(),
         ano_lancamento: ano_lancamento.trim(),
         numero_episodios: numero_episodios.trim(),
@@ -48,7 +48,7 @@ export default function AnimesCriarScreen() {
       };
 
 
-      const resposta = await api.post("/api/animes", payload);
+      const resposta = await api.post("/api/animes", req);
       Alert.alert("Sucesso", `Anime ${resposta.data.title} criado com sucesso!`, [{ text: "OK" }]);
       setTitle("");
       setAnoLancamento("");
