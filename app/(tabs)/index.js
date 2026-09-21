@@ -31,7 +31,7 @@ export default function HomeScreen() {
 
         <Link href="/modal" asChild>
           <Pressable style={styles.button}>
-            <Text style={styles.buttonText}>Curiosidade</Text>
+            <Text style={styles.buttonText}>modal</Text>
           </Pressable>
         </Link>
       </View>
