@@ -24,35 +24,35 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: "Início",
-          headerTitle: "Inicio 🧑‍💻",
+          headerTitle: "Inicio!",
         }}
       />
       <Tabs.Screen
         name="gostos"
         options={{
           title: "Gostos",
-          headerTitle: "Coisas minhas 🧾",
+          headerTitle: "Coisas minhas!",
         }}
       />
       <Tabs.Screen
         name="interface"
         options={{
           title: "Interface",
-          headerTitle: "interface 📱",
+          headerTitle: "interface!",
         }}
       />
       <Tabs.Screen
         name="sobre"
         options={{
           title: "Sobre",
-          headerTitle: "sobre 🙋",
+          headerTitle: "sobre!",
         }}
       />
       <Tabs.Screen
         name="api"
         options={{
           title: "Api",
-          headerTitle: "Api dos animes 📔",
+          headerTitle: "Api dos animes!",
         }}
       />
       <Tabs.Screen
